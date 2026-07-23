@@ -267,22 +267,27 @@
 </section>
 
 <section id="documents">
+  <div class="note">
+    <strong>وضع الاستشارة:</strong>
+    تُعرض الوثيقتان داخل الصفحة دون أزرار فتح أو تنزيل ظاهرة.
+  </div>
+
   <h2>الوثيقتان الأصليتان داخل الصفحة</h2>
 
   <div class="doc-head">
     <h3>الوثيقة الأولى: مراسلات بيجو والزعماء المغاربة، 1844</h3>
-    <a class="btn" href="correspondances-bugeaud-marocains-1844.pdf" target="_blank" rel="noopener">فتح PDF في نافذة مستقلة</a>
+    
   </div>
   <div class="viewer">
-    <iframe src="correspondances-bugeaud-marocains-1844.pdf" title="مراسلات بيجو والزعماء المغاربة 1844"></iframe>
+    <iframe src="correspondances-bugeaud-marocains-1844.pdf#toolbar=0&navpanes=0&statusbar=0&view=FitH" title="مراسلات بيجو والزعماء المغاربة 1844"></iframe>
   </div>
 
   <div class="doc-head">
     <h3>الوثيقة الثانية: الجريدة الرسمية ومعاهدة للا مغنية، 1845</h3>
-    <a class="btn" href="moniteur-algerien-1845.pdf" target="_blank" rel="noopener">فتح PDF في نافذة مستقلة</a>
+    
   </div>
   <div class="viewer">
-    <iframe src="moniteur-algerien-1845.pdf" title="معاهدة للا مغنية 1845"></iframe>
+    <iframe src="moniteur-algerien-1845.pdf#toolbar=0&navpanes=0&statusbar=0&view=FitH" title="معاهدة للا مغنية 1845"></iframe>
   </div>
 </section>
 </main>
@@ -293,5 +298,10 @@
   وMoniteur algérien، 20 شتنبر 1845.
 </footer>
 </div>
+<script>
+document.addEventListener('contextmenu', function (event) {
+  event.preventDefault();
+});
+</script>
 </body>
 </html>
