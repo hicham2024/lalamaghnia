@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تحليل معاهدة للا مغنية 1845</title>
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --paper: #fffdf8;
+      --ink: #1f2933;
+      --muted: #5f6c72;
+      --accent: #7a2e2e;
+      --gold: #b58a3b;
+      --line: #ded7c9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #ece5d8 0%, var(--bg) 100%);
+      color: var(--ink);
+      font-family: "Tahoma", "Arial", sans-serif;
+      line-height: 1.9;
+    }
+    .page {
+      width: min(1180px, 94%);
+      margin: 32px auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 12px 36px rgba(40, 32, 20, .10);
+      overflow: hidden;
+    }
+    header {
+      padding: 42px 48px 28px;
+      background:
+        linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)),
+        repeating-linear-gradient(45deg, #f2eadb 0 12px, #fff 12px 24px);
+      border-bottom: 4px solid var(--gold);
+    }
+    h1 {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: clamp(28px, 4vw, 48px);
+      line-height: 1.3;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 18px;
+      margin: 0;
+    }
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 11px 18px;
+      border-radius: 10px;
+      font-weight: 700;
+      border: 1px solid var(--accent);
+      transition: .2s ease;
+    }
+    .btn.primary {
+      color: #fff;
+      background: var(--accent);
+    }
+    .btn.secondary {
+      color: var(--accent);
+      background: #fff;
+    }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 5px 14px rgba(0,0,0,.10); }
+    main { padding: 34px 48px 48px; }
+    .notice {
+      background: #f8f1e5;
+      border-right: 5px solid var(--gold);
+      padding: 16px 20px;
+      border-radius: 10px;
+      margin-bottom: 28px;
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 27px;
+      margin-top: 34px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 8px;
+    }
+    h3 {
+      color: #513737;
+      margin-top: 24px;
+      font-size: 21px;
+    }
+    ul { padding-right: 24px; }
+    li { margin: 7px 0; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      padding: 20px;
+      box-shadow: 0 5px 16px rgba(50,40,30,.05);
+    }
+    .card strong { color: var(--accent); }
+    blockquote {
+      margin: 18px 0;
+      padding: 15px 18px;
+      border-right: 4px solid var(--accent);
+      background: #faf6ef;
+      color: #443c34;
+    }
+    .pdf-wrap {
+      margin-top: 28px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      background: #eee;
+    }
+    iframe {
+      width: 100%;
+      height: 760px;
+      border: 0;
+      display: block;
+    }
+    footer {
+      padding: 20px 48px 28px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      background: #fbf8f2;
+      font-size: 14px;
+    }
+    @media (max-width: 760px) {
+      header, main, footer { padding-left: 22px; padding-right: 22px; }
+      .grid { grid-template-columns: 1fr; }
+      iframe { height: 560px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>معاهدة للا مغنية لسنة 1845</h1>
+      <p class="subtitle">عرض الوثيقة الأصلية وشرح مضمونها المتعلق بالحدود المغربية الجزائرية</p>
+      <div class="toolbar">
+        <a class="btn primary" href="1845.pdf" target="_blank" rel="noopener">فتح الوثيقة الأصلية PDF</a>
+        <a class="btn secondary" href="#document">الانتقال إلى معاينة الوثيقة</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="notice">
+        هذه الصفحة مبنية على العدد الرسمي من <strong>Moniteur algérien</strong> الصادر بتاريخ
+        <strong>20 شتنبر 1845</strong>، والذي نشر النص الفرنسي والعربي لمعاهدة للا مغنية.
+      </div>
+
+      <h2>ما هي هذه الوثيقة؟</h2>
+      <p>
+        الوثيقة هي عدد من الجريدة الرسمية للمستعمرة الجزائرية خلال الفترة الاستعمارية الفرنسية.
+        وتضم النص الرسمي لمعاهدة أبرمت بين إمبراطور فرنسا وسلطان المغرب، ووقّعت قرب الحدود يوم
+        <strong>18 مارس 1845</strong>. وقد جاءت المعاهدة بعد التوتر العسكري بين المغرب وفرنسا
+        سنة 1844، وكان هدفها الأساسي تحديد أجزاء من الحدود وتنظيم تبعية القبائل والقصور.
+      </p>
+
+      <h2>أهم ما تقوله المعاهدة عن الحدود</h2>
+
+      <div class="grid">
+        <div class="card">
+          <strong>1. تثبيت حدود سابقة</strong>
+          <p>
+            تنص المعاهدة على أن الحدود تبقى على الوضع الذي كانت عليه سابقاً بين سلاطين المغرب
+            وحكام الجزائر العثمانيين. وهذا يعني أن الوثيقة لم تقدم الحدود باعتبارها اختراعاً جديداً بالكامل.
+          </p>
+        </div>
+
+        <div class="card">
+          <strong>2. ترسيم أوضح في الشمال</strong>
+          <p>
+            جرى وصف المسار الحدودي في المناطق الشمالية بالاعتماد على الأودية والجبال والممرات
+            والمناطق المعروفة محلياً، مع وضع علامات حجرية في مواضع معينة.
+          </p>
+        </div>
+
+        <div class="card">
+          <strong>3. القبائل معيار للسيادة</strong>
+          <p>
+            لم تعتمد المعاهدة على خط جغرافي فقط، بل حددت أيضاً القبائل التابعة لكل طرف.
+            وكانت البيعة والولاء السياسي والانتفاع بالأرض من عناصر تحديد التبعية.
+          </p>
+        </div>
+
+        <div class="card">
+          <strong>4. القصور والواحات</strong>
+          <p>
+            ذكرت الوثيقة عدداً من القصور والمناطق الصحراوية وحددت تبعيتها، مع الحفاظ لسكانها
+            على أراضيهم ومياههم وممتلكاتهم وفق التبعية المحددة.
+          </p>
+        </div>
+      </div>
+
+      <h2>ماذا عن المناطق الصحراوية جنوباً؟</h2>
+      <p>
+        أهم نقطة في الوثيقة أن الترسيم لم يمتد بخط دقيق ومتصل إلى جميع المناطق الصحراوية جنوباً.
+        فقد اعتبرت بعض المجالات قليلة السكان أو غير مأهولة بشكل دائم، ولذلك لم تُرسم فيها حدود هندسية
+        كاملة كما حصل في الشمال.
+      </p>
+
+      <blockquote>
+        عدم رسم خط حدودي متصل في الصحراء لا يعني بالضرورة غياب السيادة؛ إذ أبقت المعاهدة لكل طرف
+        سلطته على القبائل والقصور التابعة له.
+      </blockquote>
+
+      <h2>ما الذي تثبته الوثيقة تاريخياً؟</h2>
+      <ul>
+        <li>المغرب عومل كدولة مستقلة لها سلطان وحدود ورعايا.</li>
+        <li>فرنسا اعترفت بوجود حدود سابقة بين المغرب والجزائر العثمانية.</li>
+        <li>الحدود في ذلك العصر لم تكن تقوم فقط على خطوط الخرائط، بل أيضاً على تبعية القبائل والقصور.</li>
+        <li>الترسيم كان أكثر دقة في الشمال وأقل وضوحاً في المجال الصحراوي الجنوبي.</li>
+        <li>الوثيقة وحدها لا تكفي لإثبات تبعية كل الصحراء للمغرب، لكنها تثبت أن الحدود الجنوبية الحديثة لم تكن مرسومة كاملة سنة 1845.</li>
+      </ul>
+
+      <h2>الخلاصة</h2>
+      <p>
+        معاهدة للا مغنية ثبتت الحدود التقليدية في أجزاء من الشمال، ووزعت القبائل والقصور بين الطرفين،
+        لكنها لم تنشئ خطاً حدودياً كاملاً في الصحراء. ولهذا فإن فهم الحدود الحالية يتطلب أيضاً دراسة
+        الاتفاقات والقرارات الاستعمارية الفرنسية اللاحقة، وليس الاكتفاء بمعاهدة 1845 وحدها.
+      </p>
+
+      <h2 id="document">الوثيقة الأصلية داخل الصفحة</h2>
+      <p>
+        يمكن قراءة الوثيقة مباشرة أدناه، أو فتحها في نافذة مستقلة باستعمال الزر الموجود أعلى الصفحة.
+      </p>
+
+      <div class="pdf-wrap">
+        <iframe src="1845.pdf" title="معاهدة للا مغنية 1845"></iframe>
+      </div>
+    </main>
+
+    <footer>
+      المصدر: Gallica / Bibliothèque nationale de France — Moniteur algérien، 20 شتنبر 1845.
+    </footer>
+  </div>
+</body>
+</html>
